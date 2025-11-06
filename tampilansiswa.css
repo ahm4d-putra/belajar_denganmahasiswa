@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.card {
+  max-width: 620px;
+  margin: 24px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+.row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 8px 12px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #eee;
+}
+.row:last-child {
+  border-bottom: none;
+}
+.row strong {
+  color: #333;
+}
+.actions {
+  margin-top: 14px;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #222;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #222;
+}
